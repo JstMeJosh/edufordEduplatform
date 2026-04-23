@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstaticjc.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Courses</h1>
+</section>
+<!-- course -->
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Here are the courses we offer</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermidiate</h3>
+            <p>In this intermediate course, we'll deepen your understanding with advanced theory and hands-on practice. Prepare to tackle complex problems and engage in thought-provoking discussions to enhance your skills. By the end, you'll emerge with heightened expertise, ready for new challenges.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>In this degree program, we'll explore complex concepts and engage in practical applications to deepen your understanding. Through rigorous study and critical thinking, you'll develop the expertise needed to excel in your field. By the end, you'll emerge equipped with the knowledge and skills to succeed in your chosen profession.</p>
+        </div>
+        <div class="course-col">
+            <h3>postgraduate</h3>
+            <p>In this postgraduate program, we'll delve into advanced theories and practical applications to refine your expertise. Through intensive study and research, you'll develop specialized skills tailored to your field. By graduation, you'll be equipped to excel in complex professional environments and contribute meaningfully to your industry.</p>
+        </div>
+    </div>
+</section>
+
+<!--facilities-->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Where Innovation Meets Infrastructure: Our Facilities, Your Gateway to Success.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="library.png">
+            <h3>World Class Library</h3>
+            <p>Discover. Explore. Imagine. <br>Unlock the world of knowledge in our library's embrace.<br>Journey beyond the pages, where stories shape dreams.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="basketball.png">
+            <h3>Largest Playground</h3>
+            <p>Where Laughter Echoes and Adventures Begin: Our Playground, Your Haven.<br>Boundless joy awaits, where friendships flourish and memories are made.<br>Step into our playground, where every moment is an opportunity to soar.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Savor the Flavor of Community: Our Cafeteria, Your Culinary Oasis.<br>From global tastes to local favorites, indulge in a world of cuisine.<br>Gather, dine, and connect in the heart of our campus culture."</p>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ullam quia suscipit aliquid. Aspernatur, perspiciatis cum cumque culpa quam repellendus officiis, earum ipsa fugit libero voluptate laudantium quo blanditiis illo!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i> by JAYCODES </p>
+</section>
+<!--- JavaScript for Toggle Menu --->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+
+</html>
